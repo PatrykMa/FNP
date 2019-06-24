@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/Background</item>
+        <item name="android:buttonStyle">@style/NormalButton</item>
+        <item name="android:spinnerStyle">@style/Spinner</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerDropItem</item>
+
+    </style>
+
+    <style name="NormalButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorBackground">@color/NormalButtonColor</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">10dp</item>
+
+
+    </style>
+    <style name="Spinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:textSize">30dp</item>
+
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="SpinnerDropItem"  parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:height">40dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textSize">30dp</item>
+
+
+    </style>
+    <style name="SearchEditText" parent="EditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:drawableRight">@drawable/ic_baseline_search_24px</item>
+        <item name="android:hint">Szukaj</item>
+    </style>
+
+    <style name="EditText" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">25dp</item>
+
+    </style>
+</resources>
